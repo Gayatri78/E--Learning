@@ -1,0 +1,263 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.carousel-image-wrapper {
+  position: relative;
+
+}
+
+.carousel-image-wrapper video {
+  width: 100%;
+  height: 710px;
+  
+}
+
+.carousel-image-wrapper {
+  max-width: 100%;
+  max-height: 450px;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 10%;
+  left: 30px;
+  right: 30px;
+  padding: 10px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.carousel-text h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.carousel-text p {
+  font-size: 25px;
+  max-width: 800%;
+  margin: 0 auto;
+}
+
+.carousel-text1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.start-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+} 
+
+.start-button:hover {
+  background-color: #5778f0;
+}
+
+
+/* new div css */
+
+.homepara {
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: center;
+  text-Align: 'center';
+  padding-top: 10px;
+
+}
+
+.container.home2 .homepara {
+  font-size: 18px;
+  padding-top: 10px;
+
+}
+
+.container.home3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  width: calc(29% - 15px);
+  margin-right: 25px;
+  margin-left: 18px;
+  background-color: #fafafb;
+  box-shadow: 5px 8px 15px;
+  border-radius: 10px;
+
+}
+
+.card1 h4 {
+  margin-top: 30px;
+
+}
+
+.card1T {
+
+  font-size: 025px;
+  
+}
+
+.card1 .card1C {
+  font-size: 18px;
+  
+}
+
+.icon-blue {
+  color: rgba(8, 8, 10, 0.963);
+  margin-top: 10px;
+  background-color: rgb(196, 201, 248);
+  border-radius: 50%;
+  padding: 10px;
+
+}
+/* vedio */
+
+
+.videoHomeDiv {
+
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.videoHomeDiv .content {
+  height: 165px;
+  width: 400px;
+  text-align: left;
+  color: #060605;
+  margin-left: 70px;
+
+}
+
+.videoHomeDiv .content .heading {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.videoHomeDiv .content .about {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* Styles for student cards */
+.container.student-info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -15px;
+  margin-right: -15px;
+
+}
+
+.studentcard1 img {
+  width: 75px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.imghover:hover {
+  transform: scale(1.10); 
+  transition: transform 0.1s ease; 
+
+}
+
+.studentcard1 p {
+  margin-top: 5px;
+  text-align: left;
+  font-size: 10px;
+}
+
+.studentcard1 {
+  width: 480px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+/* new */
+
+.home6Div{
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+  margin-bottom: 70px;
+}
+
+.home6Div .backgroundColorDiv {
+  background-color: #f3f4ff;
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  z-index: -1;
+  top: 50px;
+  
+}
+
+.home6Div .contentDiv {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: left;
+  color: #3c3b37;
+  line-height: 1.4;
+  margin-left: 100px;
+  
+}
+
+.home6Div.contentDiv .heading {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.home6Div .contentDiv .about {
+  font-size: 19px;
+  margin-bottom: 15px;
+  
+}
+
+.home6Div .contentDiv .getstartedButton {
+  background-color: #000000;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 13px 13px;
+  cursor: pointer;
+}
+
+.home6Div .contentDiv .getstartedButton:hover {
+  background-color: #484eff;
+
+}.Getstartimg {
+  box-shadow:5px 5px 8px;
+
+}
+.buttontext{
+  color: #ffffff;
+}

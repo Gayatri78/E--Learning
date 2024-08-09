@@ -1,0 +1,78 @@
+.faq {
+  padding: 40px 20px;
+  background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+.FAQh1 {
+  color: #070707; /* Darker text color for better readability */
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-size: 36px;
+  text-align: center; /* Center-align the heading */
+}
+
+.underline {
+  position: relative;
+  display: inline-block;
+}
+
+.underline::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px; /* Adjusted position for closer alignment */
+  transform: translateX(-50%);
+  width: 60%; /* Slightly increased width */
+  height: 4px; /* Increased height for better visibility */
+  background-color: rgb(68, 73, 221);
+}
+
+.faq p {
+  font-size: 20px; /* Slightly smaller font size for better readability */
+  color: #1d1c1c; /* Lighter color for the text */
+  line-height: 1.6; /* Improved line spacing for readability */
+  text-align: center; /* Center-align the paragraph */
+  margin-bottom: 40px; /* Space between the paragraph and accordion */
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff; /* White background for headers */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for subtle effect */
+  margin-bottom: 10px; /* Space between accordion items */
+  cursor: pointer; /* Cursor change on hover */
+}
+
+.accordion-number {
+  background-color: rgb(0, 89, 255);
+  color: white;
+  border-radius: 50%;
+  width: 30px; /* Slightly larger for better visibility */
+  height: 30px; /* Slightly larger for better visibility */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px; /* Increased margin for spacing */
+  font-size: 18px; /* Adjust font size of number */
+}
+
+.accordion-title {
+  font-size: 18px; /* Adjust font size of title */
+  color: #333; /* Darker text color */
+}
+
+.accordion-body {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px; 
+  box-shadow: 0 1px 3px rgba(194, 102, 102, 0.1);
+}
+
+.accordion-body p {
+  font-size: 16px; 
+  color: #666; 
+  line-height: 1.5; 
+}

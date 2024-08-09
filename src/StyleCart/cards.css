@@ -1,0 +1,93 @@
+
+/* Container for the cards section */
+section {
+    width: 95%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Individual card styling */
+.cards {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(231, 235, 243);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effects for the card */
+.cards:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* Image container within the card */
+.image_box img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Image hover effect */
+.cards:hover .image_box img {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Details section within the card */
+.details {
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Title of the course */
+.details p:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+/* Author of the course */
+.details p:nth-child(2) {
+    color: rgb(35, 32, 32);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+/* Price of the course */
+.details p:nth-child(3) {
+    font-weight: bold;
+    color: rgb(93, 92, 92);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+.details button {
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: #4c4eaf;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.details button:hover {
+    background-color: #5cd362;
+    transform: scale(1.05);
+}

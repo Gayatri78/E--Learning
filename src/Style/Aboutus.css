@@ -1,0 +1,152 @@
+.aboutusDiv1 {
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 0;
+}
+
+.aboutusDiv1 .contentDiv1 {
+  width: 500px;
+  max-width: 90%; 
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: left;
+  color: #171716;
+  line-height: 1.4;
+  margin-right: 140px; 
+
+ 
+
+}
+
+.aboutusDiv1 .contentDiv1 .heading1 {
+  font-size: 34px;
+  margin-bottom: 10px;
+
+}
+
+.aboutusDiv1 .contentDiv1 .about1 {
+  font-size: 19px;
+  margin-bottom: 15px;
+  
+}
+
+.aboutusImg1 {
+  width: 30%; 
+  height: 70%; 
+  display: block; 
+  margin: 50px auto 0; 
+  box-shadow:5px 8px 15px;
+}
+
+.backgroundColorDiv1 {
+  background-color: #e1f0ff;
+  position: absolute;
+  height: 270px;
+  width: 100%;
+  z-index: -1;
+  top: 20px;
+
+
+
+}
+
+/* Div2 Start */
+
+.contentDiv2 {
+  width: 500px;
+  max-width: 90%; 
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: left;
+  color: #171716;
+  line-height: 1.4;
+  margin-right: 30px; 
+  margin-left: 90px;
+}
+.aboutusDiv1 .contentDiv2 .heading1 {
+  font-size: 34px;
+  margin-bottom: 10px;
+
+
+}
+
+.aboutusDiv1 .contentDiv2 .about1 {
+  font-size: 19px;
+  margin-bottom: 40px;
+}
+
+/* div */
+.BackgroundImgDiv {
+  position: relative;
+  margin: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../Images/background1.avif');
+  background-repeat: repeat-x;
+  height: 350px;
+  background-size: auto 120%;
+  padding: 30px 0px;
+  margin-bottom: 80px;
+
+}
+
+.BackgroundImgDiv .aboutBackgroundImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 60%;
+  flex-direction: column;
+  color: white;
+}
+
+.BackgroundImgDiv h2 {
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.BackgroundImgDiv p {
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+
+.getstartedButton {
+  background-color: #dcf4ff; /* Default button color */
+  color: rgb(0, 0, 0); /* Default text color */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.getstartedButton:hover {
+  background-color: #4204df; /* Button color on hover */
+}
+
+/* Feature cards css */
+.featureDiv1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0px;
+ 
+  margin-bottom: 90px;
+  background-color: #eef7ff;
+
+}

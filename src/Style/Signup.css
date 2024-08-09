@@ -1,0 +1,111 @@
+/* General Container Styling */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 80px;
+  background: linear-gradient(135deg, #a3c0fa, #f2eaea);
+  border-radius: 12px;
+  box-shadow:4px 4px 20px;
+}
+.form-container-signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 80px;
+  background: linear-gradient(135deg, #a3c0fa, #ffe9e9);
+  border-radius: 12px;
+  box-shadow:4px 4px 20px;
+}
+/* Form Styling */
+.Auth-form {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.Auth {
+  text-align: center;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+.btn-primary {
+  padding: 12px;
+  background-color: #3697ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2dc444;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center a {
+  color: #5366dd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: #888;
+}
+
+.forgot-password a {
+  color: #5366dd;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
