@@ -36,18 +36,18 @@ function Signup() {
             <input
               type="text"
               className="form-control mt-1"
-              placeholder="e.g Harry Potter"
+              placeholder="Enter your Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
             />
           </div>
           <div className="form-group mt-3">
-            <label>Email address</label>
+            <label>Email</label>
             <input
               type="email"
               className="form-control mt-1"
-              placeholder="E-Mail"
+              placeholder="Enter your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -58,7 +58,7 @@ function Signup() {
             <input
               type="password"
               className="form-control mt-1"
-              placeholder="Enter password"
+              placeholder="Enter your Password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required

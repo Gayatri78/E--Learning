@@ -12,7 +12,7 @@
 .side-image {
   width: 400px; 
   margin-right: 40px; 
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .form-contact {
@@ -53,10 +53,10 @@
 }
 .iconmsg {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 10px;
   transform: translateY(-50%);
-  color:#201e1e96; 
+  color:#49494996; 
   font-size: 20px;
 }
 

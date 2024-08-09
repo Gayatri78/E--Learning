@@ -1,6 +1,4 @@
 // Courses: Main component that manages the state of the application including showing either the list of courses or the cart.
-
-
 import React, { useState } from 'react';
 import Navbar from '../MainLogicCart/Navbar';
 import CourseCard from '../MainLogicCart/CourseCard';

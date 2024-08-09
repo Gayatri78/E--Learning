@@ -31,11 +31,11 @@ function Login() {
         <div className="Auth">
           <h3 className="form-title">LOG IN</h3>
           <div className="form-group mt-3">
-            <label>Email address</label>
+            <label>Email</label>
             <input
               type="email"
               className="form-control mt-1"
-              placeholder="Enter email"
+              placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -46,7 +46,7 @@ function Login() {
             <input
               type="password"
               className="form-control mt-1"
-              placeholder="Enter password"
+              placeholder="Password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
