@@ -121,8 +121,8 @@
 }
 
 .getstartedButton {
-  background-color: #dcf4ff; /* Default button color */
-  color: rgb(0, 0, 0); /* Default text color */
+  background-color: #dcf4ff; 
+  color: rgb(0, 0, 0); 
   border: none;
   padding: 10px 20px;
   text-align: center;
@@ -136,7 +136,7 @@
 }
 
 .getstartedButton:hover {
-  background-color: #4204df; /* Button color on hover */
+  background-color: #4204df; 
 }
 
 /* Feature cards css */

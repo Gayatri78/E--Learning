@@ -4,6 +4,7 @@ import '../Style/FAQ.css';
 
 export default function App() {
     return (
+        <div className="container div2">
         <div className="faq">
         <h1 className="FAQh1 underline "> Frequently Asked Questions  </h1>
         <p>"Discover Your Coding Journey: Unveiling FAQs About Our Platform's Courses, Accessibility, Interactive Features, Certification, Pricing, and Beyond!"</p>
@@ -37,6 +38,7 @@ export default function App() {
                     </MDBAccordionItem>
                 </MDBAccordion>
             </MDBContainer>
+        </div>
         </div>
     );
 }
